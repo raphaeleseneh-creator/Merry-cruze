@@ -6,8 +6,8 @@ export const CATEGORIES: CategoryInfo[] = [
     name: 'Cleaning & Janitorial Equipment',
     headline: 'Commercial-grade sanitation and housekeeping systems',
     description: 'Heavy-duty cleaning trolleys, high-capacity wringer mop buckets, caution safety signs, and commercial-strength cleaners engineered for continuous facility operations.',
-    itemCount: 4,
-    featuredProducts: ['cleaning-trolley', 'industrial-mop-bucket', 'wet-floor-caution-sign', 'industrial-cleaner'],
+    itemCount: 6,
+    featuredProducts: ['cleaning-trolley', 'industrial-mop-bucket', 'wet-floor-caution-sign', 'industrial-cleaner', 'spray-mop-floor-cleaner', 'utility-cleaning-bucket'],
   },
   {
     id: 'bathroom-essentials',
@@ -57,8 +57,8 @@ export const PRODUCTS: Product[] = [
     isHeroFeatured: true,
     isBestseller: true,
     images: {
-      primary: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1000&q=80',
-      secondary: 'https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&w=1000&q=80',
+      primary: '/products/merrycruze/janitorial-trolley.png',
+      secondary: '/products/merrycruze/cleaning-service-trolley.png',
       alt: 'Commercial Janitorial Cleaning Trolley with tiers and waste bag',
     },
     features: [
@@ -94,8 +94,8 @@ export const PRODUCTS: Product[] = [
     isHeroFeatured: true,
     isBestseller: true,
     images: {
-      primary: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=1000&q=80',
-      secondary: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=1000&q=80',
+      primary: '/products/merrycruze/mop-bucket-single.png',
+      secondary: '/products/merrycruze/mop-bucket-dual.png',
       alt: 'Industrial Mop Bucket with ergonomic down-press wringer',
     },
     features: [
@@ -128,7 +128,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     isHeroFeatured: true,
     images: {
-      primary: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=80',
+      primary: '/products/merrycruze/wet-floor-sign.png',
       alt: 'A-frame yellow folding wet floor caution sign',
     },
     features: [
@@ -160,7 +160,7 @@ export const PRODUCTS: Product[] = [
     priceDisplay: 'Request Price',
     inStock: true,
     images: {
-      primary: 'https://images.unsplash.com/photo-1585670270677-3acce876007e?auto=format&fit=crop&w=1000&q=80',
+      primary: '/products/merrycruze/industrial-cleaner.png',
       alt: 'Commercial Multi-Surface Industrial Cleaner',
     },
     features: [
@@ -193,7 +193,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     isHeroFeatured: true,
     images: {
-      primary: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1000&q=80',
+      primary: '/products/merrycruze/shower-kit.png',
       alt: 'Wall-Attachable Multi-Spray Shower Kit in polished chrome',
     },
     features: [
@@ -225,7 +225,7 @@ export const PRODUCTS: Product[] = [
     priceDisplay: 'Request Price',
     inStock: true,
     images: {
-      primary: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1000&q=80',
+      primary: '/products/merrycruze/shower-curtain.png',
       alt: 'Water-Repellent Commercial Shower Curtain',
     },
     features: [
@@ -258,7 +258,8 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     isHeroFeatured: true,
     images: {
-      primary: 'https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=1000&q=80',
+      primary: '/products/merrycruze/bath-mat-pink.png',
+      secondary: '/products/merrycruze/bath-mat-blue.png',
       alt: 'Ultra-Absorbent Anti-Slip Bath Mat',
     },
     features: [
@@ -292,7 +293,7 @@ export const PRODUCTS: Product[] = [
     isHeroFeatured: true,
     isBestseller: true,
     images: {
-      primary: 'https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?auto=format&fit=crop&w=1000&q=80',
+      primary: '/products/merrycruze/pedal-bins.png',
       alt: 'Stainless steel hands-free pedal waste bin',
     },
     features: [
@@ -355,7 +356,7 @@ export const PRODUCTS: Product[] = [
     priceDisplay: 'Request Price',
     inStock: true,
     images: {
-      primary: 'https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?auto=format&fit=crop&w=1000&q=80',
+      primary: '/products/merrycruze/ironing-board.png',
       alt: 'Multi-Height Heavy-Duty Ironing Board',
     },
     features: [
@@ -387,7 +388,7 @@ export const PRODUCTS: Product[] = [
     priceDisplay: 'Request Price',
     inStock: true,
     images: {
-      primary: 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=1000&q=80',
+      primary: '/products/merrycruze/pillow-set.png',
       alt: 'Hospitality-Grade Hypoallergenic Pillow Set',
     },
     features: [
@@ -419,7 +420,7 @@ export const PRODUCTS: Product[] = [
     priceDisplay: 'Request Price',
     inStock: true,
     images: {
-      primary: 'https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1000&q=80',
+      primary: '/products/merrycruze/stool-chair.png',
       alt: 'Commercial Heavy-Duty Utility Stool Chair',
     },
     features: [
@@ -451,7 +452,7 @@ export const PRODUCTS: Product[] = [
     priceDisplay: 'Request Price',
     inStock: true,
     images: {
-      primary: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1000&q=80',
+      primary: '/products/merrycruze/childrens-table-chair.png',
       alt: 'Ergonomic Children’s Activity Table and Chair Set',
     },
     features: [
@@ -471,5 +472,69 @@ export const PRODUCTS: Product[] = [
     ],
     relatedProductSlugs: ['heavy-duty-stool-chair'],
     relatedGuideSlugs: ['cleaning-equipment-checklist-schools'],
+  },
+  {
+    id: 'mc-014',
+    slug: 'spray-mop-floor-cleaner',
+    name: 'Long-Handle Spray Mop Floor Cleaner',
+    category: 'cleaning-janitorial',
+    categoryName: 'Cleaning & Janitorial Equipment',
+    shortDescription: 'Long-handle floor cleaner with a flat cleaning head for quick everyday floor care.',
+    description: 'A practical floor-cleaning tool for homes, offices, short-let apartments, and other spaces that need fast daily touch-ups. The slim head reaches beneath furniture and works across common hard-floor surfaces.',
+    priceDisplay: 'Request Price',
+    inStock: true,
+    images: {
+      primary: '/products/merrycruze/spray-mop-cleaner.png',
+      alt: 'Merrycruze long-handle spray mop floor cleaner',
+    },
+    features: [
+      'Long handle supports comfortable upright cleaning',
+      'Low-profile flat head reaches beneath furniture',
+      'Suitable for routine cleaning of common hard-floor surfaces',
+      'Compact design for convenient home or facility storage',
+    ],
+    applications: {
+      b2c: ['Homes and apartments', 'Short-let residences', 'Home offices'],
+      b2b: ['Offices', 'Retail spaces', 'Hospitality guest rooms'],
+    },
+    specifications: [
+      { label: 'Format', value: 'Long-handle floor cleaner' },
+      { label: 'Cleaning Head', value: 'Flat low-profile head' },
+      { label: 'Supply Model', value: 'Individual units or bulk orders' },
+    ],
+    relatedProductSlugs: ['industrial-cleaner', 'industrial-mop-bucket', 'wet-floor-caution-sign'],
+    relatedGuideSlugs: ['essential-cleaning-equipment-commercial-facility'],
+  },
+  {
+    id: 'mc-015',
+    slug: 'utility-cleaning-bucket',
+    name: 'Multi-Purpose Utility Cleaning Bucket',
+    category: 'cleaning-janitorial',
+    categoryName: 'Cleaning & Janitorial Equipment',
+    shortDescription: 'Durable handled utility bucket for everyday cleaning, washing, and facility tasks.',
+    description: 'A straightforward, reusable cleaning bucket for homes, housekeeping teams, offices, schools, and commercial facilities. Its handled design supports easy carrying between work areas.',
+    priceDisplay: 'Request Price',
+    inStock: true,
+    images: {
+      primary: '/products/merrycruze/utility-bucket.png',
+      alt: 'Merrycruze multi-purpose utility cleaning bucket',
+    },
+    features: [
+      'Strong carry handle for movement between work areas',
+      'Wide opening for filling, rinsing, and general cleaning tasks',
+      'Reusable construction suited to regular household and facility use',
+      'Simple stackable form for efficient storage',
+    ],
+    applications: {
+      b2c: ['Household cleaning', 'Laundry and utility areas', 'Outdoor washing'],
+      b2b: ['Housekeeping teams', 'Schools and offices', 'Hospitality facilities'],
+    },
+    specifications: [
+      { label: 'Format', value: 'Handled utility bucket' },
+      { label: 'Use', value: 'General cleaning and washing' },
+      { label: 'Supply Model', value: 'Individual units or bulk orders' },
+    ],
+    relatedProductSlugs: ['industrial-mop-bucket', 'industrial-cleaner', 'cleaning-trolley'],
+    relatedGuideSlugs: ['essential-cleaning-equipment-commercial-facility'],
   },
 ];
