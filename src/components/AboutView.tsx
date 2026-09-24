@@ -43,6 +43,9 @@ export const AboutView: React.FC<AboutViewProps> = ({
             <p className="mt-4 text-sm sm:text-base text-[#606060] leading-relaxed max-w-3xl">
               Merrycruze is a Nigerian product and supply brand focused on delivering commercial janitorial equipment, bathroom essentials, waste-management systems, and practical household utility goods to both everyday homes and demanding commercial organizations.
             </p>
+            <p className="mt-3 text-sm font-semibold text-[#171717] max-w-3xl">
+              We supply products and equipment; we do not provide cleaning services.
+            </p>
           </div>
 
           {/* Central Philosophy */}
@@ -55,7 +58,7 @@ export const AboutView: React.FC<AboutViewProps> = ({
                 CLEANER. SAFER. BETTER-EQUIPPED SPACES.
               </h2>
               <p className="mt-3 text-xs sm:text-sm text-[#606060] leading-relaxed">
-                We believe that clean, hygienic, and well-maintained environments are fundamental to human health, organizational dignity, and operational productivity. Whether equipping a 200-room luxury hotel or outfitting an individual family home, our hardware is designed to perform day after day without compromise.
+                We believe dependable products are fundamental to clean, hygienic, and well-maintained environments. Whether supplying a 200-room luxury hotel or an individual family home, we source practical hardware designed for reliable, repeated use.
               </p>
             </div>
 

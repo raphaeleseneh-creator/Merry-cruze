@@ -134,14 +134,14 @@ export const B2BSection: React.FC<B2BSectionProps> = ({
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
             <div>
               <span className="text-xs font-mono font-bold tracking-widest text-[#F59A23] uppercase">
-                Sector-Specific Solutions
+                Sector-Specific Supply
               </span>
               <h3 className="text-2xl sm:text-3xl font-extrabold text-white uppercase tracking-tight mt-1">
                 INDUSTRIES WE EQUIP
               </h3>
             </div>
             <p className="text-xs sm:text-sm text-neutral-400 max-w-md">
-              Explore equipment recommendations and operational solutions tailored to your organization’s physical footprint.
+              Explore product recommendations and equipment packages selected for your organization’s facilities and daily operations.
             </p>
           </div>
 
@@ -178,7 +178,7 @@ export const B2BSection: React.FC<B2BSectionProps> = ({
               <div className="flex items-center gap-2 mb-2">
                 <span className="w-2 h-2 rounded-full bg-[#F59A23]" />
                 <span className="text-xs font-mono uppercase text-[#F59A23]">
-                  Sector Solution // {selectedIndustry.title}
+                  Sector Supply // {selectedIndustry.title}
                 </span>
               </div>
 

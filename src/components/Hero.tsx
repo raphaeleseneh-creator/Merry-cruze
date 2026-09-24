@@ -104,7 +104,7 @@ export const Hero: React.FC<HeroProps> = ({
 
                 {/* Supporting Copy */}
                 <p className="mt-6 text-sm sm:text-base text-[#606060] font-normal leading-relaxed max-w-md">
-                  Practical cleaning, household and facility solutions for homes, businesses and institutions.
+                  Cleaning, household and facility products supplied to homes, businesses and institutions across Nigeria.
                 </p>
 
                 {/* CTA Action Buttons */}
@@ -171,7 +171,7 @@ export const Hero: React.FC<HeroProps> = ({
                 {/* Practical Applications Pill List */}
                 <div className="mt-4 pt-4 border-t border-[#E7E7E7] space-y-2">
                   <div className="flex items-center justify-between text-xs">
-                    <span className="text-[#606060]">B2C Solutions</span>
+                    <span className="text-[#606060]">Home Supply</span>
                     <span className="font-semibold text-[#171717]">Homes & Short-Lets</span>
                   </div>
                   <div className="flex items-center justify-between text-xs">

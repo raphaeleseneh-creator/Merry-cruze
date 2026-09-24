@@ -85,7 +85,7 @@ export default function App() {
     } else if (currentView === 'products') {
       document.title = 'Commercial Cleaning & Janitorial Products Catalog | Merrycruze';
     } else if (currentView === 'business-solutions') {
-      document.title = 'Commercial Facility Solutions & B2B Procurement | Merrycruze';
+      document.title = 'Commercial Product Supply & B2B Procurement | Merrycruze';
     } else if (currentView === 'industries') {
       document.title = 'Industries We Equip: Hotels, Schools & Offices | Merrycruze';
     } else if (currentView === 'guide-detail' && activeGuideSlug) {

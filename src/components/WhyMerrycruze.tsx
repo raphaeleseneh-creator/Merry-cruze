@@ -42,7 +42,7 @@ export const WhyMerrycruze: React.FC = () => {
             </h2>
           </div>
           <p className="text-sm text-[#606060] max-w-md">
-            Delivering practical, heavy-duty cleaning and utility solutions without the fragility of consumer-grade retail hardware.
+            Supplying practical, heavy-duty cleaning equipment and utility products for homes, businesses, and institutions.
           </p>
         </div>
 

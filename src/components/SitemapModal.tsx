@@ -114,7 +114,7 @@ export const SitemapModal: React.FC<SitemapModalProps> = ({
                   {[
                     { label: 'Homepage', view: 'home' },
                     { label: 'All Products Catalog', view: 'products' },
-                    { label: 'Business Solutions', view: 'business-solutions' },
+                    { label: 'Business Supply', view: 'business-solutions' },
                     { label: 'Industries We Serve', view: 'industries' },
                     { label: 'Resources & Guides', view: 'resources' },
                     { label: 'About Merrycruze', view: 'about' },

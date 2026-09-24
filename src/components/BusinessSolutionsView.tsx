@@ -38,7 +38,7 @@ export const BusinessSolutionsView: React.FC<BusinessSolutionsViewProps> = ({
               <span className="text-[#F59A23]">& FACILITY SUPPLY</span>
             </h1>
             <p className="mt-4 text-neutral-300 text-sm sm:text-base leading-relaxed">
-              Consolidated equipment solutions for hotels, schools, corporate offices, healthcare facilities, and cleaning service contractors across Nigeria.
+              Consolidated product supply for hotels, schools, corporate offices, healthcare facilities, and cleaning contractors across Nigeria.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-4">
@@ -64,7 +64,7 @@ export const BusinessSolutionsView: React.FC<BusinessSolutionsViewProps> = ({
         {/* 9 Sectors Breakdown */}
         <div className="space-y-8">
           <h2 className="text-2xl font-bold uppercase text-[#171717]">
-            Sector Solutions & Standard Specifications
+            Sector Supply & Standard Specifications
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
