@@ -1,0 +1,6 @@
+{
+  "name": "Merrycruze - Cleaning, Household & Facility Supplies",
+  "description": "Premium Nigerian product and supply brand for commercial cleaning & janitorial equipment, bathroom essentials, waste management, and facility solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

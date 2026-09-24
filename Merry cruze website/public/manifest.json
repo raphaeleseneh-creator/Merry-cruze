@@ -1,0 +1,15 @@
+{
+  "short_name": "Merrycruze",
+  "name": "Merrycruze Supplies",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F5F5F5",
+  "theme_color": "#171717",
+  "display": "standalone"
+}
