@@ -5,6 +5,7 @@ import { INDUSTRIES } from '../data/industries';
 import { Mail, Phone, MapPin, MessageSquare, ShieldAlert, FileText, Download, FileSpreadsheet } from 'lucide-react';
 import { ProductCategory } from '../types';
 import { downloadBoqTemplateCsv, downloadProductCatalogTxt, downloadSitemapXml } from '../utils/fileDownloader';
+import { BrandLogo } from './BrandLogo';
 
 interface FooterProps {
   onNavigate: (view: string, filter?: string) => void;
@@ -21,14 +22,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenSitemap }) => 
           
           {/* Brand Column */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-[#F59A23] flex items-center justify-center text-white font-extrabold text-sm">
-                M
-              </div>
-              <span className="font-extrabold text-xl tracking-wider text-white">
-                MERRY<span className="text-[#F59A23]">CRUZE</span>
-              </span>
-            </div>
+            <BrandLogo size="large" onDark />
 
             <p className="text-sm text-neutral-400 max-w-sm leading-relaxed">
               Cleaner, safer, better-equipped spaces. A Nigerian product and supply brand delivering commercial janitorial equipment, bathroom essentials, waste management, and household utility goods.

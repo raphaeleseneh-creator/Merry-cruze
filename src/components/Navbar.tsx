@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronRight, FileText, Phone, MessageSquare } from 'lucide-react';
 import { MERRYCRUZE_CONFIG, getGeneralWhatsAppLink } from '../data/config';
+import { BrandLogo } from './BrandLogo';
 
 interface NavbarProps {
   currentView: string;
@@ -63,19 +64,10 @@ export const Navbar: React.FC<NavbarProps> = ({
             <button
               type="button"
               onClick={() => handleNavClick('home')}
-              className="flex items-center gap-2 text-left group cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F59A23] rounded-lg"
+              className="flex items-center text-left cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#F59A23] rounded-lg"
+              aria-label="Merrycruze home"
             >
-              <div className="w-8 h-8 rounded-lg bg-[#171717] flex items-center justify-center text-white font-extrabold text-sm tracking-tighter group-hover:bg-[#F59A23] transition-colors">
-                <span>M</span>
-              </div>
-              <div>
-                <span className="font-extrabold text-base md:text-lg tracking-wider text-[#171717]">
-                  MERRY<span className="text-[#F59A23]">CRUZE</span>
-                </span>
-                <span className="block text-[9px] font-semibold text-[#606060] tracking-widest uppercase -mt-1">
-                  SUPPLY CO.
-                </span>
-              </div>
+              <BrandLogo />
             </button>
 
             {/* Desktop Navigation Links */}
@@ -142,14 +134,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <div>
               <div className="flex items-center justify-between pb-4 border-b border-[#E7E7E7]">
-                <div className="flex items-center gap-2">
-                  <div className="w-7 h-7 rounded-md bg-[#171717] flex items-center justify-center text-white text-xs font-extrabold">
-                    M
-                  </div>
-                  <span className="font-extrabold text-sm tracking-wider text-[#171717]">
-                    MERRY<span className="text-[#F59A23]">CRUZE</span>
-                  </span>
-                </div>
+                <BrandLogo size="small" />
                 <button
                   type="button"
                   onClick={() => setMobileMenuOpen(false)}
